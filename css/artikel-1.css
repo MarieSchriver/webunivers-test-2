@@ -100,9 +100,56 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: #FAEBD7;
 }
+
+.container {
+    padding: 20px;
+}
+
+.row {
+    display: flex; /* Gør det muligt for to artikler at stå ved siden af hinanden */
+    justify-content: space-between; /* Giver jævn afstand mellem artiklerne */
+    gap: 20px; /* Afstand mellem de to bokse */
+    margin-bottom: 20px; /* Afstand mellem rækkerne */
+}
+
+.tekst {
+    width: 48%; /* Giver to elementer mulighed for at stå ved siden af hinanden på én linje */
+    background-color: #FAEBD7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+.tekst img {
+    width: 100%; /* Billederne fylder hele bredden af deres container */
+    height: auto;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    font-family: bebas-neue-v14-deprecated, sans-serif;
+    color: #006400;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
 
 footer {
     display: flex;
@@ -131,9 +178,6 @@ footer .img {
     width: 5%;
     height: auto;
 }
-
-
-    
 
 .img{
     align-items: center;
