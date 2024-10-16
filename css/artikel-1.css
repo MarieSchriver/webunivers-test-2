@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: auto;               
+    height: 20rem;              
+    background-color: #A7C9A5;                
+    padding: 20px; 
+    position: relative;                 
+}
+
+.overlay{
+    position: absolute; 
+    top: 8rem;          
+    left: 32rem;         
+    width: 100px;       
+    height: auto;       
+    z-index: 1; 
+}
+
+.logo{
+    position: absolute; 
+    top: 6rem;          
+    left: 38rem;         
+    width: 15rem;       
+    height: auto;       
+    z-index: 100; 
+}
+
+.tekst{
+    width: 20%; /* Hver boks fylder 20% af containerens bredde */
+    text-align: center;
+    padding: 10px;
+    background-color:#FAEBD7; /* Baggrundsfarve for bokse */
+    border-radius: 10px; /* Afrundede hjørner */
+    /* display: flex; */
+    
+}
+
+.navbar {
+    background-color: #A7C9A5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #006400;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #006400;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #A7C9A5;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #006400;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body{
+    background-color: #FAEBD7;
+}
+
+footer{
+    margin-left: 40%;
+    margin-right: 40%;   
+    color: #006400;
+    font-family: bebas-neue-v14-deprecated, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+p{
+    margin-left: 40%;
+    
+}
+.img{
+    align-items: center;
+    justify-content: flex;
+   width: 20%;
+   height: 20%;
+}
