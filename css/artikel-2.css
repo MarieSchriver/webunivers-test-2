@@ -96,13 +96,41 @@
     display: block;
 }
 
-body{
+body {
     background-color: #FAEBD7;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 
-h1{
+main h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #006400;
+    padding: 3rem;
+}
+
+.top-billeder {
+    display: flex; /* Gør det muligt at placere billederne ved siden af hinanden */
+    justify-content: center; /* Centrerer billederne */
+    gap: 20px; /* Mellemrum mellem billederne */
+    margin-bottom: 20px; /* Afstand til den nederste sektion */
+}
+
+.bottom-billede {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Cirkler det nederste billede */
+}
+
+.produkt h2, .produkt h3, .produkt h4 {
+    margin-bottom: 10px; /* Afstand mellem overskrift og billede */
+    color: black; /* Farve til overskrifterne */
+    font-size: 1.2rem; /* Størrelse på overskrifterne */
+}
+
+.produkt img {
+    width: 400px; /* Angiver en fast bredde for billederne */
+    height: auto; /* Bevarer billedets proportioner */
 }
 
 footer {
