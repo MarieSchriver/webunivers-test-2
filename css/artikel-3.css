@@ -118,18 +118,32 @@ body{
 
 }
 
-footer{
-    margin-left: 40%;
-    margin-right: 40%;   
+footer {
+    display: flex;
+    flex-direction: column; /* Arrangerer indholdet i en kolonne (tekst over billeder) */
+    align-items: center; /* Centrerer alt horisontalt */
+    justify-content: center; /* Centrerer alt vertikalt */
     color: #006400;
     font-family: bebas-neue-v14-deprecated, sans-serif;
     font-size: larger;
     font-weight: 600;
+    padding: 2rem;
+    text-align: center;
 }
 
-p{
-    margin-left: 40%;
-    
+footer .find {
+    margin-bottom: 1rem; /* Afstand mellem teksten og billederne */
+}
+
+footer .img-container {
+    display: flex; /* Gør containeren for billederne til en fleksboks */
+    justify-content: center; /* Centrerer billederne horisontalt */
+    gap: 1rem; /* Laver mellemrum mellem billederne */
+}
+
+footer .img {
+    width: 5%;
+    height: auto;
 }
 .img{
     align-items: center;
