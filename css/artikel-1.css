@@ -132,7 +132,7 @@ body {
 }
 
 .tekst img {
-    width: 100%; /* Billederne fylder hele bredden af deres container */
+    width: 50%; /* Billederne fylder hele bredden af deres container */
     height: auto;
     margin-top: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

@@ -110,12 +110,11 @@ body{
 }
 
 .tekst{
-   font-size: 2rem;
+   font-size: medium;
    padding: 1rem;
    margin-left: 10%;
    margin-right: 10%;
-   
-
+   font-family: bebas-neue-v14-deprecated, sans-serif;
 }
 
 footer {

@@ -12,8 +12,11 @@
     <header>
         <nav>
         <article class="box"></article>
+
+        <a href="index.html"> 
             <img src="img/matcha-logo.png" alt="logo" class="logo">
             <img src="img/matchatea.png" alt="tealogo" class="overlay">
+        </a>
         
            
              
@@ -25,7 +28,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <article class="dropdown-content">
-                <a href="artikel-1.html">Almindelig Matcha</a>
+                <a href="artikel-1.html">Almindelig Matcha+</a>
                 <a href="#matcha-latte">Matcha Latte</a>
                 <a href="#iced-matcha">Iced Matcha</a>
             </article>
@@ -36,7 +39,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <article class="dropdown-content">
-                <a href="artikel-2.html">Need to Have</a>
+                <a href="artikel-2.html">Need to Have+</a>
                 <a href="#nice-to-have">Nice to Have</a>
             </article>
         </section>
@@ -46,7 +49,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <article class="dropdown-content">
-                <a href="artikel-3.html">Historien om Matcha</a>
+                <a href="artikel-3.html">Historien om Matcha +</a>
                 <a href="#er-matcha-sundt">Er Matcha Sundt?</a>
                 <a href="#trend-eller-blivende">Trend eller Blivende?</a>
             </article>
@@ -61,6 +64,23 @@
         <p class="tekst"> Velkommen til Matcha her på siden finder du en guide til at lave matcha derhjemme, du finder også vejledning til hvilke produkter der er et must når man skal lave matcha derhjemme. Du kan også finde information om matcha oprindelse, og andre facts om matcha.
         </p>
      </section>
+
+     <section class="kontakt-form">
+        <h2>Kontakt os</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" placeholder="Indtast dit navn" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Indtast din email" required>
+            
+            <label for="message">Besked:</label>
+            <textarea id="message" name="message" placeholder="Skriv din besked" rows="4" required></textarea>
+            
+            <input type="submit" value="Send besked">
+        </form>
+    </section>
+    
 
      <footer>
         <p class="find">Find os på:</p>
