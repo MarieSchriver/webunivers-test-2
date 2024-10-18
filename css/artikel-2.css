@@ -10,7 +10,7 @@
     padding: 20px; 
     position: relative;                 
 }
-
+/* dette gør min grønne boks i toppen grøn og jeg har også valgt størrelsen på den */
 .overlay{
     position: absolute; 
     top: 8rem;          
@@ -19,6 +19,7 @@
     height: auto;       
     z-index: 1; 
 }
+/* class overlay laves det at mine billeder kommer foran boksen, og størrelsen bestemmes også */
 
 .logo{
     position: absolute; 
@@ -28,6 +29,8 @@
     height: auto;       
     z-index: 100; 
 }
+/* class logo laves det at mine billeder kommer foran boksen, og størrelsen bestemmes også */  
+
 
 
 .navbar {
@@ -36,6 +39,7 @@
     display: flex;
     justify-content: center;
 }
+/* her laves min navbar */
 
 .navbar a {
     float: left;
@@ -50,6 +54,7 @@
     float: left;
     overflow: hidden;
 }
+/* her laves det sådan at menubaren folder ud når musen er på */
 
 .dropdown .dropbtn {
     font-size: 16px;
@@ -96,7 +101,6 @@ body {
     background-color: #FAEBD7;
     font-family: sans-serif;
     text-align: center;
-    padding: 20px;
 }
 
 main h1 {
@@ -121,7 +125,7 @@ main h1 {
 .produkt h2, .produkt h3, .produkt h4 {
     margin-bottom: 10px; /* Afstand mellem overskrift og billede */
     color: black; /* Farve til overskrifterne */
-    font-size: 1.2rem; /* Størrelse på overskrifterne */
+    font-size: 1rem; /* Størrelse på overskrifterne */
 }
 
 .produkt img {

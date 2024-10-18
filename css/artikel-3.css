@@ -11,7 +11,7 @@
     padding: 20px; 
     position: relative;                 
 }
-
+/* dette gør min grønne boks i toppen grøn og jeg har også valgt størrelsen på den */
 .overlay{
     position: absolute; 
     top: 8rem;          
@@ -20,6 +20,7 @@
     height: auto;       
     z-index: 1; 
 }
+/* class overlay laves det at mine billeder kommer foran boksen, og størrelsen bestemmes også */
 
 .logo{
     position: absolute; 
@@ -29,6 +30,8 @@
     height: auto;       
     z-index: 100; 
 }
+/* class logo laves det at mine billeder kommer foran boksen, og størrelsen bestemmes også */  
+
 .matcha-pulver{
     width: 100%;
     height: 100%;
@@ -46,6 +49,7 @@ body{
     height: auto;       
     z-index: 100; 
 }
+/* her laves min navbar */
 
 .navbar {
     background-color: #A7C9A5;
@@ -67,6 +71,7 @@ body{
     float: left;
     overflow: hidden;
 }
+/* her laves det sådan at menubaren folder ud når musen er på */
 
 .dropdown .dropbtn {
     font-size: 16px;

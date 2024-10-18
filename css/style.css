@@ -10,7 +10,7 @@
     padding: 20px; 
     position: relative;                 
 }
-
+/* dette gør min grønne boks i toppen grøn og jeg har også valgt størrelsen på den */
 .overlay{
     position: absolute; 
     top: 8rem;          
@@ -19,7 +19,7 @@
     height: auto;       
     z-index: 1; 
 }
-
+/* class overlay laves det at mine billeder kommer foran boksen, og størrelsen bestemmes også */
 .logo{
     position: absolute; 
     top: 6rem;          
@@ -28,7 +28,7 @@
     height: auto;       
     z-index: 100; 
 }
-
+/* class logo laves det at mine billeder kommer foran boksen, og størrelsen bestemmes også */  
 
 .navbar {
     background-color: #A7C9A5;
@@ -36,9 +36,8 @@
     display: flex;
     justify-content: center;
     font-family:bebas-neue-v14-deprecated, sans-serif;  
-
 }
-
+/* her laves min navbar */
 .navbar a {
     float: left;
     font-size: 16px;
@@ -63,7 +62,7 @@
     font-family: inherit;
     margin: 0;
 }
-
+/* her laves det sådan at menubaren folder ud når musen er på */
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #A7C9A5;
 }
@@ -100,7 +99,7 @@
     height: 50%;
     padding-bottom: 15px;
 }
-
+/* styling af billede */
 .tekst {
     display: flex; /* Gør containeren til en fleksboks */
     justify-content: center; /* Centrerer horisontalt */
@@ -112,7 +111,7 @@
     padding: 0 10rem; 
     padding-top: 2px;
     line-height: 2rem;
-    height: 100%; /* Sørg for, at den fylder hele højde i sin container */
+    height: 100%; /* Sørger for, at den fylder hele højde i sin container */
 }
 
 body{
@@ -128,6 +127,7 @@ body{
     margin: 20px auto 20px auto; 
     font-family:bebas-neue-v14-deprecated, sans-serif;  
 }
+/* styling af min form størrelse, farve, font-size */
 
 .kontakt-form h2 {
     text-align: center;
