@@ -36,7 +36,6 @@
     display: flex;
     justify-content: center;
     font-family:bebas-neue-v14-deprecated, sans-serif;  
-    font-size: 10rem larger;
 
 }
 
@@ -99,6 +98,7 @@
 .forside{
     width: 100%;
     height: 50%;
+    padding-bottom: 15px;
 }
 
 .tekst {
@@ -109,7 +109,8 @@
     font-family: bebas-neue-v14-deprecated, sans-serif;
     font-size: larger;
     color: #006400;
-    padding: 0 10rem; /* Tilføj 4rem padding på venstre og højre side */
+    padding: 0 10rem; 
+    padding-top: 2px;
     line-height: 2rem;
     height: 100%; /* Sørg for, at den fylder hele højde i sin container */
 }

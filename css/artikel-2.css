@@ -30,15 +30,11 @@
 }
 
 
-
 .navbar {
     background-color: #A7C9A5;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    font-family:bebas-neue-v14-deprecated, sans-serif;  
-    font-size: 10rem larger;
-
 }
 
 .navbar a {
@@ -162,7 +158,6 @@ footer .img {
 }
 .img{
     align-items: center;
-    justify-content: flex;
    width: 20%;
    height: 20%;
 }
